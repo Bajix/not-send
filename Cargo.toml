@@ -1,0 +1,9 @@
+[package]
+authors = ["Thomas Sieverding <Thomas@bajix.com>"]
+edition = "2021"
+name = "not-send"
+version = "1.0.0"
+description = "!Send PhantomData type"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Bajix/not-send/"
