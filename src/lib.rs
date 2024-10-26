@@ -3,7 +3,7 @@
 use core::marker::PhantomData;
 
 /// Types with PhantomNotSend won't automatically implement Send
-#[derive(Debug)]
+#[derive(Default, Debug, Clone, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct PhantomNotSend {
     _marker: PhantomData<*mut ()>,
 }
